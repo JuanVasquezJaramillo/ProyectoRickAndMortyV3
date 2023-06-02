@@ -1,0 +1,17 @@
+.estilo{
+    display: flex;
+    justify-content: center;
+    background-color: #208D45;
+}
+.contenedor{
+    background-color: #208D45;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.prueba{
+    display: flex;
+    align-self: center;
+}

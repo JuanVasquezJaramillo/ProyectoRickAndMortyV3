@@ -1,0 +1,29 @@
+.contenedor{
+    background-image:  linear-gradient( #11862b,  #45fa1800);
+    /* display: flex;
+    flex-direction: column; */
+    border: 5px solid black;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.subContenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boton{
+    background-image: url(file:///D:/Downloads/icons8-morty-smith50x50.svg);
+    background-repeat:no-repeat;
+    height: 50px;
+    width: 50px;
+    background-position:center;
+    cursor: pointer;
+    border-radius: 1px;
+    left: 50%;
+}
+.pruebaImg{
+    width: 25%;
+    border-radius: 50%;
+}

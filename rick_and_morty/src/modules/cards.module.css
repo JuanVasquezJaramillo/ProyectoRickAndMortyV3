@@ -1,0 +1,9 @@
+.contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-between;
+        
+        margin: 10px;
+        padding: 10px;
+    }

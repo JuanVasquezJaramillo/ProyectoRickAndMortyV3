@@ -1,0 +1,53 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    position:relative;  
+    border: 4px solid black;
+}   
+.contenedor:hover{
+    /* background-color: antiquewhite; */
+    -webkit-transform: scale(1.3);transform: scale(1.3);
+}
+.contenedor{
+    overflow: hidden;
+}
+.pruebaBoton{
+    background-image: url(file:///D:/Downloads/icons8-morty-smith.svg);
+    background-repeat:no-repeat;
+    height: 50px;
+    width: 50px;
+    background-position:center;
+    display: flex;
+    left: 83%;
+    position:absolute;
+    cursor: pointer;
+    border-radius: 1px;
+    background-color: transparent;
+    border: none;
+}
+.pruebaBoton:hover{
+    background-color: red;
+}
+
+.favoriteBoton{
+    background-color: transparent; /* le quita el fondo a nuestro boton*/
+    border: none;   /*Le quita el borde a nuestro boton*/
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.favoriteBoton:hover{
+    background-color: #F0F2EB;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+/* .img:hover{
+    -webkit-transform: scale(1.3);transform: scale(1.3);
+}
+.img{
+    overflow: hidden;
+} */
